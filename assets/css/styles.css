@@ -1,0 +1,118 @@
+
+.header{
+    width: 100%;
+    background: url(../img/fondo.png);
+    
+    height: 100vh;
+}
+.logo{
+    font-size: 55px;
+    color: white;
+}
+.logo img{
+    transition: all 1000ms ease;
+}
+.logo img:hover{
+    transform: rotateZ(360deg);
+}
+.hr{
+    color: white;
+}
+.casa{
+    padding: 15px;
+    position: sticky;
+    top: 0  ;
+}
+
+.casa a{
+    color: white;
+    background: rgba(35, 35, 35, .8);
+    border-radius: 10px 10px 10px 10px ;
+    padding: 10px;
+    transition: all 300ms ease;
+    border: 1px solid white;
+}
+.casa a:hover{
+    background: rgba(61, 61, 61, 8);
+}
+.nav{
+    padding-top: 4vh;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    margin: 15px;
+    background: rgba(35, 35, 35, .8);
+    padding: 2px 15px 2px 15px;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;
+        transition: all 400ms ease;
+            
+            border-left: 4px solid white;
+}
+.nav ul li:hover{
+     background: rgba(61, 61, 61, 8);
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 300ms ease;
+    font-size: 30px;
+}
+
+.body-text{
+    background: #1d1f23;
+    color: white;
+}
+
+.top{
+    padding-top: 10vh;
+}
+
+.title{
+    font-size: 55px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.txt{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.table{
+    color: white;
+}
+
+.streamers{
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.streamers a{
+    text-decoration: none;
+    color: white;
+}
+
+.twitch{
+    background: rgb(63, 12, 110);
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 10px;
+   transition: all 300ms ease;
+}
+
+.twitch:hover{background: rgb(95, 33, 153);}
