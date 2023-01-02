@@ -9,12 +9,24 @@
     font-size: 55px;
     color: white;
 }
-.logo img{
-    transition: all 1000ms ease;
+.img-logo{
+    animation-name: girarb;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
 }
-.logo img:hover{
-    transform: rotateZ(360deg);
+
+@keyframes girarb {
+    from{
+        transform: rotate(0deg);
+    }to{
+
+        transform: rotate(360deg);
+
+    }
 }
+
 .hr{
     color: white;
 }
